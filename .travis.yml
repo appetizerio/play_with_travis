@@ -1,0 +1,11 @@
+dist: trusty
+sudo: false
+language: android
+python:
+  - "2.7" 
+os:
+  - linux
+  - osx
+script:
+  - /lib/x86_64-linux-gnu/libc.so.6
+
